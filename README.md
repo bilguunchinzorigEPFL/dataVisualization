@@ -2,41 +2,48 @@
 --------------
 ## Abstract
 --------------
-Finding the common characteristics or relations to their features among influential patents, can help inventors to follow the same practice. And moreover, it opens possibility of predicting patent’s infuentience. In this project, by using number of references to individual patent, we’ll evaluate each patent’s influence. Then, we can do exploratory analysis on dataset and our evaluations to find general trends. From here, we will try to apply machine learning methods to create prediction model. We’re using US patent data provided by PatentsView.org in this project.
+Finding the common characteristics  among influential patents can help inventors or technologist track patentable features of any technological inventions. Moreover,  this  can also help estimate a priori a “potential” patent’s influence. 
+
+This project uses the US patent data provided by PatentsView.org .  Our approach consist of  using the number of references to individual patent to evaluate its influence. In addition, exploratory data analysis on dataset would be carried out  to find more general trends. The results of such analysis can further be improved  using appropriate machine learning techniques/algorithm.
+
+Lastly, we present the results of our analysis by combining the various visualisation techniques taught in the class. The visualisation will serve as a tool to present the results of our analyses.  In particular the visualization will follow the “what” , “why”, and “how” framework. By this we mean, we address what the user sees, why the user intends to use a viz tool and how the visual encoding and interactions are constructed in terms of design choices. In summary, we will adhere to the doctrine that a good viz should help augment the human cognition system  and facilitate understanding of analytical results .
 
 --------------------
 ## Research questions
 ---------------
-At the beginning we would like to see some general information:
-* Is there a trend for the number of patents applications during the years? 
-* Which countries have the most assigned patents? 
-* What are the most popular technology fields for patents assigned in the last 5 years?
-* What's the most frequent technology field by inventor's country? 
-* What percentage of patents belongs to private and what to organizations?
+From the analysis point of view we will focus on:
+  * Is there a trend for the number of patents applications during the years?
+  * Which countries have the most assigned patents?
+  * What are the most popular technology fields for patents assigned in the last 5 years?
+  * What's the most frequent technology field by inventor's country?
+  * What percentage of patents belongs to private and what to organizations?
+  * Are the citations inside each patent and the citations to a patent increasing with passing of the years?
+  * How the number of citations relates to the category of the patent?
+  * How "famous" is a patent?
+From the visualisation perspective we focus on:
+  * Data types appropriate for the representation of results from analysis (we will consider using a tree , Network  or geometry or  a combination of geometry and networks.
+  * Possible actions for interacting with the Viz: Search, Query or Consume (discover, annotate, derive ) 
+  * Visualisation targets: Trends, Outliers, Features, Correlation, Distribution and dependency.
+  * Network or connection between data points: Topology, paths
+  * Spatial information of patents (spatial data eg country locations)
+  * Encoding (order, Map, shape), Manipulation (navigate, select) , Reducing (filtering ) of data points.
+  * Interactive , simple and easy to use interface 
 
-Then we will focus on the citations:
-* Are the citations inside each patent and the citations to a patent increasing with passing of the years?
-* How the number of citations relates to the category of the patent?
-
-We will also try to answer the question: 
-* How "famous" is a patent?
 -----------------
 ## Dataset
 -----------------
-Patents dataset - we will use the patents dataset from http://www.patentsview.org/api/doc.html from where we can get the data through the API Endpoint. With HTTP GET or POST method we can search for patents matching the query string and this will return the data fields we are looking for. The response data format is JSON. 
+Patents dataset - we will use the patents dataset from http://www.patentsview.org/api/doc.html from where we can get the data through the API Endpoint. 
+In addition we get datasets from http://snap.stanford.edu/data/cit-Patents.html. Information about this data sets can be found in http://www.nber.org/patents/ . Anyone interested in detailed description of the dataset should kindly read:
 
-An example of a API call using the GET method:
+Hall, B. H., A. B. Jaffe, and M. Trajtenberg (2001). "The NBER Patent Citation Data File: Lessons, Insights and Methodological Tools." NBER Working Paper 8498.  http://www.nber.org/papers/w8498.pdf
 
-```http://www.patentsview.org/api/patents/query?q={"_gte":{"patent_date":"2007-01-04"}}&f=["patent_number","patent_date"]```
 
-This will return all patent numbers and patent dates after 2007-01-04
-
-Also, the raw data is available for download, and maybe we will use it for some more complex queries.
 
 ------------------
 ## A list of internal milestones up until project milestone 2
 --------------
-* Nov. 11, 2017 - Get comfortable using the API, getting the needed data and trying to answer some of the questions and make some demo plots.
-* Nov. 21, 2017 - We should have answered all of the questions and try to find a way to answer how "famous" a patent is. 
+  * Nov. 11, 2017 - Get comfortable using the API, getting the needed data and trying to answer some of the questions and make some demo plots.
+  * Nov. 21, 2017 -General outline for the visualisation paradigms to use and its feasibility. And also come up with a simple running prototype as proof of concept
+
 
 
