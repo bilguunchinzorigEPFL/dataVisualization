@@ -40,7 +40,7 @@ Hall, B. H., A. B. Jaffe, and M. Trajtenberg (2001). "The NBER Patent Citation D
 
 
 ------------------
-## A list of internal milestones up until project milestone 2
+## Milestone for Project
 --------------
   * Nov. 11, 2017 - Get comfortable using the API, getting the needed data and trying to answer some of the questions and make some demo plots.
   * Nov. 21, 2017 -General outline for the visualisation paradigms to use and its feasibility. And also come up with a simple running prototype as proof of concept
