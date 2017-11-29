@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 12px;
+   /*background-color: #efefef;*/
+   background: #000;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #666666;
+    overflow: hidden;
+}
+
+.title {
+    float: left;
+    font-size: 300%;
+    margin-left:  10px
+    align
+    font-weight: bolder;
+    color: cyan;
+}
+.attrib {
+    float: right;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.lapped {
+    background-color: #333333;
+    stroke: #333333;
+    fill: #333333;
+}
+
+.safety{
+    background-color: #330000;
+    stroke: #330000;
+    fill: #330000;
+}
+.canvas{
+    padding-top: 70px;
+    margin: none;
+    display:block;
+}
