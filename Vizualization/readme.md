@@ -2,6 +2,8 @@
  ### Vizualization
 This folder contains the visualisation part of this project
 
+The data sets for the map  were obtained from Natural Earth: http://www.naturalearthdata.com/downloads/50m-cultural-vectors/
+
 ---
 To do 
 
