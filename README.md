@@ -37,6 +37,9 @@ In addition we get datasets from http://snap.stanford.edu/data/cit-Patents.html.
 
 Hall, B. H., A. B. Jaffe, and M. Trajtenberg (2001). "The NBER Patent Citation Data File: Lessons, Insights and Methodological Tools." NBER Working Paper 8498.  http://www.nber.org/papers/w8498.pdf
 
+The data sets for the map  were obtained from Natural Earth: http://www.naturalearthdata.com/downloads/50m-cultural-vectors/
+
+
 
 
 ------------------
